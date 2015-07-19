@@ -51,7 +51,7 @@ def draw_spring_layout(G, partition):
         nx.draw_networkx_nodes(G, pos, list_nodes, node_size=15,
                                node_color='#%02x%02x%02x' % (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
     nx.draw_networkx_edges(G, pos, alpha=0.5, width=0.5)
-    plt.savefig("local/graph.png")
+    plt.savefig("image/output_graph.png")
     plt.show()
 
 class MyTestCase(unittest.TestCase):

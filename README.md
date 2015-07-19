@@ -1,10 +1,12 @@
 # data_analisis_tutorial
 勉強会用レポジトリ
 
-##環境
-###バージョン
+## 環境
+
+### バージョン
 python 2.7
-###ライブラリ
+
+### ライブラリ
 * decorator==3.4.2
 * funcsigs==0.4
 * matplotlib==1.4.3
@@ -20,3 +22,12 @@ python 2.7
 * scipy==0.15.1
 * six==1.9.0
 * wsgiref==0.1.2
+* [community ](https://bitbucket.org/taynaud/python-louvain)
+
+### ライブラリインストール
+
+```sh
+$ pip install -r requirements.txt
+```
+
+communityは[こちら](https://bitbucket.org/taynaud/python-louvain)を参考に
