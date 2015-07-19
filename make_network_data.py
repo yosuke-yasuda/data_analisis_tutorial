@@ -41,7 +41,7 @@ def draw_spring_layout(G, partition):
     random.seed(0)
     for index, com in enumerate(set(partition.values())):
         list_nodes = [nodes for nodes in partition.keys() if partition[nodes] == com]
-        nx.draw_networkx_nodes(G, pos, list_nodes, node_size=1,
+        nx.draw_networkx_nodes(G, pos, list_nodes, node_size=5, linewidths=0,
                                node_color='#%02x%02x%02x' % (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
     nx.draw_networkx_edges(G, pos, alpha=0.5, width=0.1)
     plt.savefig("image/output_graph.png")
