@@ -31,3 +31,9 @@ $ pip install -r requirements.txt
 ```
 
 communityは[こちら](https://bitbucket.org/taynaud/python-louvain)を参考に
+
+### データ修正
+```sh
+$ cat data/selected_pairs.tsv| tr ',' '\t'  > data/_selected_pairs.tsv
+$ mv data/_selected_pairs.tsv data/selected_pairs.tsv
+```

@@ -14,7 +14,7 @@ import unittest
 def make_matrix_from_tsv_file(file_name):
     csv.field_size_limit(1000000000)
     tsvfile = open(file_name, 'rb')
-    tsvreader = csv.reader(tsvfile)
+    tsvreader = csv.reader(tsvfile, delimiter='\t')
     id_num_map = {}
     path_list = []
     count = 0
@@ -48,9 +48,9 @@ def draw_spring_layout(G, partition):
     for index, com in enumerate(set(partition.values())):
         color_tupple = (r_map[index], g_map[index], b_map[index])
         list_nodes = [nodes for nodes in partition.keys() if partition[nodes] == com]
-        nx.draw_networkx_nodes(G, pos, list_nodes, node_size=15,
+        nx.draw_networkx_nodes(G, pos, list_nodes, node_size=1,
                                node_color='#%02x%02x%02x' % (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
-    nx.draw_networkx_edges(G, pos, alpha=0.5, width=0.5)
+    nx.draw_networkx_edges(G, pos, alpha=0.5, width=0.1)
     plt.savefig("image/output_graph.png")
     plt.show()
 
@@ -63,7 +63,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(type(result), dict)
 
 if __name__ == '__main__':
-    G = nx.from_scipy_sparse_matrix(make_matrix_from_tsv_file("data/5000_sample_pairs.tsv")[1])
+    G = nx.from_scipy_sparse_matrix(make_matrix_from_tsv_file("data/30_sample_pairs.tsv")[1])
     partition = partition_graph(G)
     draw_spring_layout(G, partition)
     unittest.main()
