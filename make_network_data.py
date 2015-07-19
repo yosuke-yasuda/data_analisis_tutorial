@@ -45,7 +45,6 @@ def draw_spring_layout(G, partition):
                                node_color='#%02x%02x%02x' % (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
     nx.draw_networkx_edges(G, pos, alpha=0.5, width=0.1)
     plt.savefig("image/output_graph.png")
-    plt.show()
 
 class MyTestCase(unittest.TestCase):
     def test_make_matrix_from_tsv_file(self):
