@@ -33,7 +33,13 @@ $ pip install -r requirements.txt
 communityは[こちら](https://bitbucket.org/taynaud/python-louvain)を参考に
 
 ### データ修正
+
 ```sh
 $ cat data/selected_pairs.tsv| tr ',' '\t'  > data/_selected_pairs.tsv
 $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 ```
+
+
+## 描画結果
+
+![結果](https://raw.githubusercontent.com/double-y/data_analisis_tutorial/master/image/result_graph.png)
