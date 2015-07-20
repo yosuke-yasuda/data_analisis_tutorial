@@ -55,7 +55,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(type(result), dict)
 
 if __name__ == '__main__':
+    #unittest.main()
     G = nx.from_scipy_sparse_matrix(make_matrix_from_tsv_file("data/selected_pairs.tsv")[1])
     partition = partition_graph(G)
     draw_spring_layout(G, partition)
-    unittest.main()
