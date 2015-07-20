@@ -17,7 +17,6 @@ python 2.7
 * pbr==1.3.0
 * pyparsing==2.0.3
 * python-dateutil==2.4.2
-* python-louvain==0.4
 * pytz==2015.4
 * scipy==0.15.1
 * six==1.9.0
