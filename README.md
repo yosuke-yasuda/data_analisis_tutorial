@@ -32,8 +32,12 @@ $ pip install -r requirements.txt
 
 communityは[こちら](https://bitbucket.org/taynaud/python-louvain)を参考に
 
-### データ修正
+### データをセット
 
+`data/`以下に、`mission.facet.2.tsv`、`mission.pairs.tsv`、`selected_pairs.tsv`を入れる
+
+### データ修正
+`tsv`が`,`区切りになっているので、ファイルを修正
 ```sh
 $ cat data/selected_pairs.tsv| tr ',' '\t'  > data/_selected_pairs.tsv
 $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
