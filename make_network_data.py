@@ -1,3 +1,4 @@
+import pickle
 import numpy as np
 import networkx as nx
 import community as co
@@ -56,6 +57,22 @@ class MyTestCase(unittest.TestCase):
 
 if __name__ == '__main__':
     #unittest.main()
-    G = nx.from_scipy_sparse_matrix(make_matrix_from_tsv_file("data/selected_pairs.tsv")[1])
-    partition = partition_graph(G)
+    filename = "data/mission.pairs.tsv"
+    graph_file_name = filename+".graph.pickle"
+    partition_file_name = filename+".partition.pickle"
+    try:
+        with open(graph_file_name, mode='rb') as f:
+            G = pickle.load(f)
+    except Exception as e:
+        print(e.message)
+        G = nx.from_scipy_sparse_matrix(make_matrix_from_tsv_file(filename)[1])
+        with open(graph_file_name, mode='wb') as f:
+            pickle.dump(G, f)
+    try:
+        with open(partition_file_name, mode='rb') as f:
+            partition = pickle.load(f)
+    except Exception as e:
+        partition = partition_graph(G)
+        with open(partition_file_name, mode='wb') as f:
+            pickle.dump(partition, f)
     draw_spring_layout(G, partition)
