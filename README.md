@@ -45,7 +45,11 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 
 ## 描画結果
 
+### selected_pairs
 ![結果](https://raw.githubusercontent.com/double-y/data_analisis_tutorial/master/image/result_graph.png)
+
+### mission.pairs
+![結果](https://raw.githubusercontent.com/double-y/data_analisis_tutorial/master/image/all_graph_result.png)
 
 ## セントロイド抽出結果
 
