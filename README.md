@@ -54,6 +54,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 ## セントロイド抽出結果
 
 ### community4 count8172(24.9%)
+
 ---
 * brain:0.072744633813
 * studi:0.0567753727706
@@ -86,7 +87,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * The "What" and "When" of Self-Initiated Movements:4.61042076244
 * Residual inhibition:4.59045910988
 * Self-consciousness in non-communicative patients:4.51267382613
+
 ### community2 count6658(20.3%)
+
 ---
 * model:0.0798068245731
 * network:0.0604571746802
@@ -108,6 +111,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * mechan:0.0229417816075
 * circuit:0.0223672006723
 * comput:0.0222035914649
+
 ---
 * Driven by inhibition:4.58788447768
 * Neural Assembly Computing:4.31104093816
@@ -119,8 +123,10 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * Two layers of neural variability:3.96402061275
 * The hippocampus as a cognitive graph:3.89349197571
 * Characterization of Weak Collective Neural Coherence:3.88586062414
+
 ### community3 count4642(14.2%)
 ---
+
 * delay:0.272348927178
 * stabil:0.236412359573
 * network:0.148534954223
@@ -141,6 +147,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * bam:0.0396387400218
 * robust:0.038450637056
 * hopfield:0.0379348572683
+
 ---
 * A new impulsive integro-differential inequality and its applications:3.47531903192
 * Nontrivial Global Attractors in 2-D Multistable Attractor Neural Networks:3.11261711505
@@ -152,7 +159,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * Stability of functional differential equations with variable impulsive perturbations via generalized ordinary differential equations:2.67818754683
 * On periodic dynamical systems:2.67631844721
 * On global exponential stability of standard and full-range CNNs:2.67195974354
+
 ### community1 count2612(8.0%)
+
 ---
 * network:0.131642368803
 * learn:0.101531065856
@@ -174,6 +183,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * recognit:0.0247732657439
 * properti:0.0247035341418
 * use:0.0232553192182
+
 ---
 * A multi-output-layer perceptron:5.24672796362
 * Discrete chaos:4.74780669623
@@ -185,7 +195,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * CLIPPED-HEBBIAN TRAINING OF THE PERCEPTRON:3.51698637046
 * Bayes-optimal performance in a discrete space:3.49334122257
 * RANDOM NEURAL-NETWORK WITH LOCAL GAUGE-SYMMETRY:3.47227398407
+
 ### community5 count2419(7.4%)
+
 ---
 * brain:0.0927409423192
 * connect:0.076892874775
@@ -207,6 +219,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * synchroni:0.0237962203588
 * stimul:0.0236802613749
 * neuron:0.0235045831757
+
 ---
 * Adaptive stochastic resonance:4.58234191207
 * Stochastic resonance:4.58234191207
@@ -218,7 +231,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * The neural bases of attentive reading:3.33729354545
 * Stochastic resonance in electrical circuits - II: Nonconventional stochastic resonance:3.32378942345
 * Interictal perceptual function in epilepsy:3.27451250937
+
 ### community0 count2076(6.3%)
+
 ---
 * problem:0.150847935706
 * network:0.117976058907
@@ -240,6 +255,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * comput:0.0317035928361
 * dynam:0.03024146494
 * base:0.0291671008588
+
 ---
 * On the computational power of winner-take-all:5.73724679606
 * A GLOBAL COMPETITIVE NEURAL-NETWORK:4.89725651468
@@ -251,7 +267,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * A discrete-time dynamic K-winners-take-all neural circuit:3.99136258788
 * Dissociation as complex adaptation:3.7700523098
 * CLUSTERING FOR VEHICLE-ROUTING WITH A COMPETITIVE NEURAL-NETWORK:3.67505454111
+
 ### community6 count2068(6.3%)
+
 ---
 * respiratori:0.0699429563729
 * gener:0.062038021724
@@ -273,6 +291,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * rhythm:0.0280667374752
 * interneuron:0.0266395578991
 * robot:0.0264296518773
+
 ---
 * NEURAL ARCHITECTURES FOR ADAPTIVE-BEHAVIOR:4.76703331376
 * Multifunctional pattern-generating circuits:3.96362759279
@@ -284,7 +303,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * Optogenetic manipulation of neural and non-neural functions:3.40677348932
 * Sparse and powerful cortical spikes:3.40532991018
 * Neuron-astrocyte communication and synaptic plasticity:3.3559504255
+
 ### community9 count1190(3.6%)
+
 ---
 * cnn:0.187170032446
 * cellular:0.139845707161
@@ -306,6 +327,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * analysi:0.0339814443181
 * wave:0.0323817218292
 * model:0.0306162291719
+
 ---
 * Current-mode programmable piecewise-linear neural synapses:4.78875971339
 * Passivity and complexity:3.6656270552
@@ -317,7 +339,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * FUNCTIONAL TESTING FOR CELLULAR NEURAL NETWORKS:2.88580630907
 * On binary output of cellular neural networks:2.83116139751
 * THE ANALOGIC CELLULAR NEURAL-NETWORK AS A BIONIC EYE:2.81147023023
+
 ### community10 count1139(3.5%)
+
 ---
 * model:0.107498364556
 * learn:0.100160269755
@@ -339,6 +363,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * process:0.0233520333527
 * dynam:0.0227587596931
 * approach:0.0209701826274
+
 ---
 * TOWARD A NONCOMPUTATIONAL COGNITIVE NEUROSCIENCE:5.29737350081
 * Neural and super-Turing computing:4.28906730665
@@ -350,7 +375,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * Methods for binary multidimensional scaling:3.45044804233
 * A virtual machine for neural computers:3.38247085636
 * MODEL-BASED NEUROIMAGING FOR COGNITIVE COMPUTING:3.32310337729
+
 ### community7 count1023(3.1%)
+
 ---
 * model:0.100567015336
 * learn:0.0650455921556
@@ -372,6 +399,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * synchron:0.0301507956508
 * neuron:0.0294808381252
 * comput:0.0281517471067
+
 ---
 * Internal representation of two-dimensional shape:3.53146798303
 * A self-organizing map with homeostatic synaptic scaling:3.35563454476
@@ -383,7 +411,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * ARTIFICIAL VERSUS REAL NEURAL NETWORKS:2.80446290361
 * A learning-style theory for understanding autistic behaviors:2.79078768797
 * Neural networks for consciousness:2.70754075393
+
 ### community8 count592(1.8%)
+
 ---
 * bifurc:0.284221437034
 * delay:0.171691943578
@@ -405,6 +435,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * time:0.0425026224556
 * synchron:0.0411982681513
 * bam:0.0364297550033
+
 ---
 * STOCHASTIC SINGLE NEURONS:3.07572587017
 * Symbolic functions from neural computation:2.86367033133
@@ -416,7 +447,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * Chaos in a three dimensional neural network:2.3525120627
 * Chaos in two-loop negative feedback systems:2.31888377355
 * Chaos and transient chaos in simple Hopfield neural networks:2.28903223397
+
 ### community11 count144(0.4%)
+
 ---
 * integr:0.0975797007537
 * model:0.091563481405
@@ -438,6 +471,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * studi:0.0280432086535
 * cortex:0.0278247014773
 * modul:0.026822897872
+
 ---
 * Seizure-Induced Oxidative Stress in Temporal Lobe Epilepsy:3.12215664116
 * The glial perspective of autism spectrum disorders:2.54090820021
@@ -449,7 +483,9 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * Neural bases of peri-hand space plasticity through tool-use: Insights from a combined computational-experimental approach:2.02075106869
 * Transient impact of spike on theta rhythm in temporal lobe epilepsy:1.9898480303
 * A novel digital implementation of neuron-astrocyte interactions:1.95340499135
+
 ### community12 count66(0.2%)
+
 ---
 * condit:0.235391129298
 * model:0.129371251695
@@ -471,6 +507,7 @@ $ mv data/_selected_pairs.tsv data/selected_pairs.tsv
 * schizophrenia:0.0413524521092
 * attent:0.0401479391533
 * process:0.0401146569571
+
 ---
 * Hippocampal dysfunction in schizophrenia:3.51067117158
 * Conditioning and cognition:3.17116144398
